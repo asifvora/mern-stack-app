@@ -13,9 +13,12 @@ require('./models');
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
+// ADD THIS LINE
+app.use(express.static('client/build'));
+
 app.use(routes);
 
 // Bootstrap server
 app.listen(PORT, () => {
-	console.log(`Server listening on port : ${PORT}.`);
+	console.log(`Server listening on port ${PORT}.`);
 });
