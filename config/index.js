@@ -1,11 +1,13 @@
 // config/index.js
 
-const dbName = 'mern-web-app';
+const dbName = 'asif-mern-app';
 const dbUser = 'asifvora';
-const dbPassword = '2743@zoya';
+const dbPassword = 'asifvora2743';
 
-// const MONGODB_URI = `mongodb://${dbUser}:${dbPassword}@ds047207.mlab.com:47207/${dbName}`;
-const MONGODB_URI = `mongodb://abcd:abcd12@ds125453.mlab.com:25453/mern-example`;
+const MONGODB_URI = `mongodb://${dbUser}:${dbPassword}@ds047207.mlab.com:47207/${dbName}`;
+
+// heroku config:set MONGODB_URI=mongodb://asifvora:asifvora2743@ds047207.mlab.com:47207/asif-mern-app -a quiet-sands-79740
+// heroku config:get MONGODB_URI --app quiet-sands-79740
 
 module.exports = MONGODB_URI;
 
