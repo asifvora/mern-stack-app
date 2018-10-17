@@ -6,6 +6,64 @@ MongoDB, ExpressJS, Node.js, and Reactjs are used together to build web applicat
 ![image](https://github.com/asifvora/mern-stack-app/blob/master/MERN.png)
 <!-- article https://medium.com/crowdbotics/deploy-a-mern-stack-app-on-heroku-b0c255744a70 -->
 
+## Server
+
+For help getting started with React, view online
+[documentation](https://reactjs.org/).
+
+#### 1. [Setup Node](https://nodejs.org/en/)
+
+#### 2. Clone the repo
+
+```sh
+$ https://github.com/asifvora/mern-stack-app.git
+$ cd mern-stack-app/
+```
+
+#### 3. Install dependency
+
+```sh
+$ npm install
+```
+
+#### 4. Run the server
+
+```sh
+$ npm start
+```
+
+## Getting Started With React
+
+For help getting started with React, view online
+[documentation](https://reactjs.org/).
+
+#### 1. [Setup React](https://reactjs.org/docs/try-react.html)
+
+#### 2. Clone the repo
+
+```sh
+$ https://github.com/asifvora/mern-stack-app.git
+$ cd mern-stack-app/
+$ cd client/
+```
+
+#### 3. Install dependency
+
+```sh
+$ npm install
+```
+
+#### 4. Run the app
+
+```sh
+$ npm start
+```
+#### 5. Production build
+
+```sh
+$ npm run build
+```
+
 ## Questions?🤔 
   
 Hit me on [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/007_dark_shadow)
